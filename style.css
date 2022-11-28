@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    background-color: rgb(166, 249, 176);
+    border: 3px solid black;
+    padding: 6.5px;
+    text-align: center;
+}
+
+
+.book {
+    font-size: 18px;
+    padding: 32px;
+    color: red;
+    text-align: center;
+
+}
+
+.container {
+    background-color: rgb(214, 222, 233);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.book_style {
+    max-width: 100px;
+    max-height: 200px;
+}
+
+.book_title {
+    color: black;
+}
+
+.footer {
+    background-color: rgb(166, 249, 176);
+    border: 3px solid black;
+}
